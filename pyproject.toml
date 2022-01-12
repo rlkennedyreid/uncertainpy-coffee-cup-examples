@@ -5,15 +5,20 @@ description = ""
 authors = ["Robin Kennedy-Reid <robin.kennedy-reid@stfc.ac.uk>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9.9,<3.10"
+uncertainpy = "^1.2.3"
+chaospy = "^4.3.4"
+numpy = "^1.22.0"
+scipy = "^1.7.3"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6"
+pytest = "^6.2.5"
 pylint = "^2.12.2"
 black = "^21.12b0"
 flake8 = "^4.0.1"
 isort = "^5.10.1"
 mypy = "^0.931"
+
 
 [tool.pylint.'MESSAGES CONTROL']
 max-line-length = 88
