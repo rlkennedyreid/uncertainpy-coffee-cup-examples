@@ -1,0 +1,4 @@
+uncertainpy == "1.2.3"
+chaospy == "4.3.4"
+numpy == "1.22.0"
+scipy == "1.7.3"
