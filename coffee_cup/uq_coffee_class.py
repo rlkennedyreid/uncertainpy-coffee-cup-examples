@@ -27,7 +27,7 @@ class CoffeeCup(un.Model):
         return time, temperature
 
 
-def main():
+def model():
     # Initialize the model
     model = CoffeeCup()
 

@@ -21,7 +21,7 @@ def coffee_cup_dependent(kappa_hat, T_env, alpha):
     return time, temperature
 
 
-def main():
+def model():
     # Create a model from the coffee_cup_dependent function and add labels
     model = un.Model(coffee_cup_dependent, labels=["Time (s)", "Temperature (C)"])
 

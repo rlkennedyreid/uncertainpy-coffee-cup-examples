@@ -26,6 +26,16 @@ disable = [
     "line-too-long",
 ]
 
+[tool.pylint."MESSAGES_CONTROL"]
+disable=[
+  "all",
+]
+
+enable=[
+  "E",
+  "F",
+]
+
 [tool.isort]
 profile = "black"
 
